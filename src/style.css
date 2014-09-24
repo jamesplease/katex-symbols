@@ -1,0 +1,68 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.head {
+  padding: 30px;
+  background: #329894;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.logo {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.head h2 {
+  margin-top: 0;
+  font-weight: 300;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #329894;
+  font-size: 20px;
+}
+
+h1 + div {
+  margin-bottom: 35px;
+}
+h1 + div:last-child {
+  margin-bottom: 0;
+}
+
+main {
+  background: #fff2e7;
+  padding-bottom: 30px;
+}
+
+.katex {
+  white-space: normal;
+}
+
+.katex .base,
+.katex .katex-inner {
+  display: inline;
+}
+
+.katex .base {
+  line-height: 1.5em;
+}
+
+.katex .base > span {
+  width: 23px;
+  text-align: center;
+  display: inline-block;
+}
