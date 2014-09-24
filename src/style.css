@@ -12,7 +12,12 @@ body {
   padding: 30px;
   background: #329894;
   color: white;
-  margin-bottom: 50px;
+}
+
+.content {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .logo {
@@ -45,7 +50,6 @@ h1 + div:last-child {
 
 main {
   background: #fff2e7;
-  padding-bottom: 30px;
 }
 
 .katex {
